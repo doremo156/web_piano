@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    background-image:url(wood.jpg) ;
+}
+button{
+    height: 20rem;
+    width: 5rem;
+    font-size: xx-large;
+    background-color: #fff;
+}
+
+#heading{
+    padding: 5% 0 3% 0;
+
+}
+#heading h1{
+   font-family: Geneva, Verdana, sans-serif;
+   font-size: 210%;
+   color: #966F33;
+   text-shadow:2px 1px grey;
+}
+#heading h3{
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.keys{
+    position: relativ;
+}
+.c,.d,.e,.f,.e,.g,.a,.b{
+    box-shadow: 3px 2px 1.5px rgb(34, 32, 32);
+}
+.one,.two,.three,.four,.five{
+ background-color: black;
+ position: absolute;
+ height: 8rem;
+ width: 3rem;
+ color: #fff;
+ outline: none;
+ box-shadow: 3px 2px grey;
+}
+.pressed{
+    opacity: 90%;
+    box-shadow: 2px 2px 2px 2px rgb(156, 152, 152);
+
+}
+
+@media (max-width:511px){
+  
+    button{
+        display: block;
+        height: 4rem;
+        font-size: x-large;
+        width: 16rem;
+        
+    }
+    .one,.two,.three,.four,.five{
+        height: 2rem;
+        width: 6rem; 
+    } 
+    button span{
+        display: inline-block;
+        rotate: -90deg;
+    }
+
+    #keyboard {
+        padding-left: 20%;
+    }
+
+}
